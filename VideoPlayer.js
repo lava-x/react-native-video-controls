@@ -1237,7 +1237,7 @@ const styles = {
             justifyContent: 'space-between',
             flexDirection: 'row',
             width: null,
-            margin: 12,
+            marginTop: Platform.OS === 'ios'? 18 : 12,
             marginBottom: 18,
         },
         bottomControlGroup: {
