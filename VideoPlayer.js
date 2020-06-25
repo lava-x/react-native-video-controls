@@ -12,6 +12,7 @@ import {
   Image,
   View,
   Text,
+  Platform,
 } from 'react-native';
 import padStart from 'lodash/padStart';
 
